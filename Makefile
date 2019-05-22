@@ -2,8 +2,8 @@ compose=docker-compose
 
 build:
 	@echo "== Build"
-	@docker build -t ypereirareis/prestissimo .
+	@docker build -t -prestissimo-local .
 
 build-no-cache:
 	@echo "== Build no cache"
-	@docker build -t ypereirareis/prestissimo --no-cache .
+	@docker build -t prestissimo-local --no-cache .
